@@ -1,3 +1,7 @@
 .env
 mlruns
 mlflow.db
+temp.txt
+*.zip
+downloaded_artifacts
+stock_prediction_venv
