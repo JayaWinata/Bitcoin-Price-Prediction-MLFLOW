@@ -1,35 +1,41 @@
-Overview
+# Bitcoin Price Prediction with MLFLOW
+## Overview
 
 This project aims to predict Bitcoin prices using machine learning models and track experiments with MLflow. It leverages historical Bitcoin price data, preprocesses it, and trains a model to make future price predictions. The project is structured to ensure reproducibility and efficient tracking of model performance.
 
-Key Features
+---
 
-MLflow Integration: Tracks experiments, stores models, and logs key metrics.
+# Key Features
 
-Time-Series Data Processing: Prepares and transforms Bitcoin price data for modeling.
+- MLflow Integration: Tracks experiments, stores models, and logs key metrics.
 
-Machine Learning Model: Uses a neural network to predict future Bitcoin prices.
+- Time-Series Data Processing: Prepares and transforms Bitcoin price data for modeling.
 
-Model Loading: Enables loading and inference using mlflow.pyfunc.load_model().
+- Machine Learning Model: Uses a neural network to predict future Bitcoin prices.
 
-Key Steps in the Project
+- Model Loading: Enables loading and inference using mlflow.pyfunc.load_model().
 
-Data Collection: Load historical Bitcoin price data from the Tiingo API.
+---
 
-Data Preprocessing: Normalize and structure data for model training.
+## Key Steps in the Project
 
-Model Training: Train a neural network model using a limited number of epochs.
+- Data Collection: Load historical Bitcoin price data from the Tiingo API.
 
-Experiment Tracking with MLflow: Log parameters, metrics, and model artifacts.
+- Data Preprocessing: Normalize and structure data for model training.
 
-Model Evaluation: Assess performance using validation metrics.
+- Model Training: Train a neural network model using a limited number of epochs.
 
-Model Saving & Loading: Save the trained model and reload it for inference.
+- Experiment Tracking with MLflow: Log parameters, metrics, and model artifacts.
 
-Project Limitations
+- Model Evaluation: Assess performance using validation metrics.
 
-Limited Training Resources: The model is trained with a small number of epochs due to resource constraints, which may impact prediction accuracy.
+- Model Saving & Loading: Save the trained model and reload it for inference.
 
-Data Constraints: Performance is dependent on the availability and quality of Bitcoin price data.
+---
+## Project Limitations
 
-Feature Simplicity: The model does not incorporate external factors like market sentiment or economic indicators.
+- Limited Training Resources: The model is trained with a small number of epochs due to resource constraints, which may impact prediction accuracy.
+
+- Data Constraints: Performance is dependent on the availability and quality of Bitcoin price data.
+
+- Feature Simplicity: The model does not incorporate external factors like market sentiment or economic indicators.
