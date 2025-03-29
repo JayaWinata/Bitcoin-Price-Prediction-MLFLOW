@@ -4,4 +4,5 @@ mlflow.db
 temp.txt
 *.zip
 downloaded_artifacts
+*.db
 stock_prediction_venv
