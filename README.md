@@ -17,6 +17,16 @@ This project aims to predict Bitcoin prices using machine learning models and tr
 
 ---
 
+## Tech Stack
+- Ngrok
+- Hyperopt
+- Scikit-learn
+- Keras
+- Mlflow
+- Logging
+
+---
+
 ## Key Steps in the Project
 
 - Data Collection: Load historical Bitcoin price data from the Tiingo API.
