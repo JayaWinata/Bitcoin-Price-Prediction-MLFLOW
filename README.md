@@ -2,6 +2,7 @@
 ## Overview
 
 This project aims to predict Bitcoin prices using machine learning models and track experiments with MLflow. It leverages historical Bitcoin price data, preprocesses it, and trains a model to make future price predictions. The project is structured to ensure reproducibility and efficient tracking of model performance.
+It also serves as a demonstration of how to integrate and use MLflow for experiment tracking, model logging, and version control in a time series forecasting workflow.
 
 ---
 
