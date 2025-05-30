@@ -6,7 +6,7 @@ It also serves as a demonstration of how to integrate and use MLflow for experim
 
 ---
 
-# Key Features
+## Key Features
 
 - MLflow Integration: Tracks experiments, stores models, and logs key metrics.
 
