@@ -43,6 +43,14 @@ It also serves as a demonstration of how to integrate and use MLflow for experim
 - Model Saving & Loading: Save the trained model and reload it for inference.
 
 ---
+
+## 📈 Evaluation Metrics
+
+The neural network model (LSTM) was evaluated using **Root Mean Squared Error (RMSE)**.
+- **Best Eval RMSE**: `0.02937`
+
+---
+
 ## Project Limitations
 
 - Limited Training Resources: The model is trained with a small number of epochs due to resource constraints, which may impact prediction accuracy.
